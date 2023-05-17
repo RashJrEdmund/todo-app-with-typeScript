@@ -1,0 +1,23 @@
+{
+  "name": "todo-app-with-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RashJrEdmund/todo-app-with-typeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RashJrEdmund/todo-app-with-typeScript/issues"
+  },
+  "homepage": "https://github.com/RashJrEdmund/todo-app-with-typeScript#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
