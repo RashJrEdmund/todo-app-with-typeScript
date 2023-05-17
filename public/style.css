@@ -1,9 +1,94 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button,
+[type="submit"],
+[type="button"] {
+  cursor: pointer;
+  color: #f5f5f5;
 }
 
 .todo_container {
-    
+  background-color: green;
+  width: 97vw;
+  max-width: 550px;
+  margin: 3rem auto;
+  padding: 15px;
+}
+
+.todo_container form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+
+form [type="text"] {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+}
+
+form [name="submit_btn"] {
+  background-color: #000;
+  width: fit-content;
+  padding: 8px 13px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+[id="list"] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0 0;
+}
+
+[id="list"] [class="task"] {
+  border: 1px solid #000;
+  width: 100%;
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+[class="task"] p {
+  width: 100%;
+  line-height: 20px;
+  padding: 5px;
+}
+
+[class="task"] [class="action_btns"] {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0 0 0 10px;
+}
+
+[class="action_btns"] button {
+  background-color: #a52a2a;
+  width: fit-content;
+  height: fit-content;
+  min-height: 30px;
+  padding: 7px 10px;
+}
+
+[class="action_btns"] button:nth-of-type(2) {
+  background-color: #000;
 }
