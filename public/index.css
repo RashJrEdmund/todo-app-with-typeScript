@@ -24,7 +24,7 @@ button,
   width: 97vw;
   max-width: 550px;
   margin: 3rem auto;
-  padding: 15px;
+  padding: 25px 15px 15px;
   box-shadow: 0 0 10px #000;
 }
 
@@ -62,9 +62,10 @@ form [name="submit_btn"] {
 [id="list"] [class="task"] {
   border: 1px solid #000;
   width: 100%;
-  margin: 0 0 10px;
+  margin: 0 0 37px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 [class="task"] p {
@@ -93,4 +94,15 @@ form [name="submit_btn"] {
 
 [class="action_btns"] button:nth-of-type(2) {
   background-color: #000;
+}
+
+[class="task"] .done_label {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
 }

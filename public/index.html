@@ -11,7 +11,12 @@
   <body>
     <div class="todo_container">
       <form id="task_form">
-        <input type="text" class="new_task" name="new_task" placeholder="add a task" />
+        <input
+          type="text"
+          class="new_task"
+          name="new_task"
+          placeholder="add a task"
+        />
         <input type="submit" name="submit_btn" value="+" />
       </form>
 
@@ -22,6 +27,10 @@
             <button class="delete_btn">X</button>
             <button class="edit_btn">+</button>
           </div>
+
+          <label class="done_label" for="done">
+            <input type="checkbox" id="done" />Mark as done</label
+          >
         </li>
 
         <li class="task">
@@ -33,6 +42,10 @@
             <button class="delete_btn">X</button>
             <button class="edit_btn">+</button>
           </div>
+
+          <label class="done_label" for="done">
+            <input type="checkbox" id="done" />Mark as done</label
+          >
         </li>
       </ul>
     </div>
