@@ -17,8 +17,6 @@ arrayTaks.forEach(addListItem);
 form?.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  console.log("this list", list);
-
   if (
     input?.value == "" ||
     input?.value == null ||
